@@ -40,7 +40,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/pony.webp"
-          alt="AI line art of a horse"
+          alt="AI line art of a horse."
           width={180}
           height={180}
           priority
