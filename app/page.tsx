@@ -1,91 +1,115 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Forest Heims | Contact Page</title>
+      <meta name="description" content="Contact information and links for Forest Heims" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+    <header className={styles.Header}>
+      <h1 className={styles.HOne}>Forest Heims | Contact Me</h1>
+      <div className={styles.Links}>
+        <a className={styles.Link} href="https://forestheims.net">
+          Home
+        </a>
+        <a className={styles.Link} href="https://forestheims.dev">
+          Blog
+        </a>
+        <a className={styles.Link} href="https://forestheims.org">
+          Projects
+        </a>
+        <a className={styles.Link} href="https://forestheims.com">
+          Contact
+        </a>
+      </div>
+    </header>
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+
       </div>
 
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="/pony.webp"
+          alt="AI line art of a horse"
           width={180}
-          height={37}
+          height={180}
           priority
         />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
       </div>
 
       <div className={styles.grid}>
         <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/in/forestheims/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
+            LinkedIn <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
+            Connect with or contact me here.
           </p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://github.com/forestheims"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
+            GitHub <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
+          <p className={inter.className}>
+            forestheims has 114 repositories available.
+          </p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://forestheims.net/resume/2023-resume-2.3.pdf"
           className={styles.card}
           target="_blank"
-          rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
+            Resume <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            The resume of a job seeking software developer.
           </p>
         </a>
+        
+        <a
+          href="mailto:forestheims@gmail.com"
+          className={styles.card}
+          target="_blank"
+        >
+          <h2 className={inter.className}>
+            Email <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Email is probably the best way to get in contact with me.
+          </p>
+        </a>
+
       </div>
     </main>
+    <footer className={styles.description}>
+      <p>
+        This page built with&nbsp;
+          <code className={styles.code}>Next.js</code>
+      </p>
+    </footer>
+  </>
   )
 }

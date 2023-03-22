@@ -7,6 +7,26 @@
   min-height: 100vh;
 }
 
+.Header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px 80px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.Links {
+  display: flex;
+  gap: 20px;
+  font-size: 1.25rem;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -26,7 +46,7 @@
 }
 
 .description p {
-  position: relative;
+  /* position: relative; */
   margin: 0;
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
@@ -179,6 +199,10 @@
     padding: 4rem;
   }
 
+  .Header {
+    flex-direction: column;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
@@ -215,7 +239,6 @@
   .description div {
     display: flex;
     justify-content: center;
-    position: fixed;
     width: 100%;
   }
 
