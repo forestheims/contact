@@ -65,8 +65,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.center}>
         <div className={styles.logo}>
-          <Image src="/foxy.gif"
-            alt="cute animated fox face gif" width={220} height={180} priority />
+          <img src="/foxy.gif"
+            alt="cute animated fox face gif" width={220} height={180} />
         </div>
         </div>
         <div className={styles.grid}>
