@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,6 +34,7 @@ export default function Home() {
       <link rel="manifest" href="/favicons/site.webmanifest" />
       <link rel="shortcut icon" href="/favicons/favicon.ico" />
       </Head>
+      <Script async defer src="https://analytics.umami.is/script.js" data-website-id="cf17fb60-715f-416e-8602-ea91a629fb9f" />
       <header className={styles.header}>
       <div className={styles.description}>
           <p>
