@@ -33,8 +33,8 @@ export default function Home() {
       />
       <link rel="manifest" href="/favicons/site.webmanifest" />
       <link rel="shortcut icon" href="/favicons/favicon.ico" />
+      <Script async defer data-website-id={process.env.DATA_WEBSITE_ID} src={process.env.UMAMI_SRC} />
       </Head>
-      <Script async defer src="https://analytics.umami.is/script.js" data-website-id="cf17fb60-715f-416e-8602-ea91a629fb9f" />
       <header className={styles.header}>
       <div className={styles.description}>
           <p>
