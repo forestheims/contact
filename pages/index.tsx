@@ -34,7 +34,6 @@ export default function Home() {
       <link rel="manifest" href="/favicons/site.webmanifest" />
       <link rel="shortcut icon" href="/favicons/favicon.ico" />
       </Head>
-      <Script async defer data-website-id={process.env.DATA_WEBSITE_ID} src={process.env.UMAMI_SRC} />
       <header className={styles.header}>
       <div className={styles.description}>
           <p>
