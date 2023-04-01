@@ -89,6 +89,7 @@
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
+  width: 130px;
 }
 
 .card p {
@@ -97,6 +98,7 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+  height: 75px;
 }
 
 .center {
@@ -154,9 +156,13 @@
 
 /* Conic Gradient Animation */
 .thirteen::before {
-  animation: 6s rotate linear infinite;
-  width: 100%;
-  height: 100%;
+  animation: 12s rotate linear infinite;
+  width:100%;
+  height:100%;
+  /* width: 800px;
+  height: 800px;
+  left: 200px;
+  top: -200px; */
   background: var(--tile-border);
 }
 

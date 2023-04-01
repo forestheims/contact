@@ -66,7 +66,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.center}>
         <div className={styles.logo}>
-          <img src="/foxy.gif"
+          <Image src="/foxy.gif"
             alt="cute animated fox face gif" width={220} height={180} />
         </div>
         </div>
@@ -134,8 +134,7 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}><p>
-          This static webpage was built with&nbsp;
-            <code className={styles.code}>Next.js</code>
+          Thanks for spending some time exploring these websites I&apos;ve been working. 
           </p></footer>
     </>
   )
