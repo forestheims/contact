@@ -134,7 +134,7 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}><p>
-          Thanks for spending some time exploring these websites I&apos;ve been working. 
+          Thanks for spending some time exploring these websites I&apos;ve been working on. 
           </p></footer>
     </>
   )
