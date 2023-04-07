@@ -42,22 +42,22 @@ export default function Home() {
         </div>
       <div className={styles.links}>
         <h2 className={styles.headingLink}>
-          <a href="https://forestheims.net/" className={styles.link}>
+          <a href="https://forestheims.net/" className={styles.link} referrerPolicy="origin" >
             Home
           </a>
         </h2>
         <h2 className={styles.headingLink}>
-          <a href="https://forestheims.dev/" className={styles.link}>
+          <a href="https://forestheims.dev/" className={styles.link} referrerPolicy="origin" >
             Blog
           </a>
         </h2>
         <h2 className={styles.headingLink}>
-          <a href="https://forestheims.org/" className={styles.link}>
+          <a href="https://forestheims.org/" className={styles.link} referrerPolicy="origin" >
             Projects
           </a>
         </h2>
         <h2 className={styles.headingLink}>
-          <a href="https://forestheims.com/" className={styles.link}>
+          <a href="./" className={styles.link}>
             Contact
           </a>
         </h2>
