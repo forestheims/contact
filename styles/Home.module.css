@@ -5,13 +5,18 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-family: var(--font-mono);
 }
 
 .header {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 20px;
   font-family: var(--font-mono);
+}
+
+.headerSlug {
+  padding: 40px 10px 0px 10px;
 }
 
 .links {
@@ -20,17 +25,27 @@
   margin-right: 80px;
 }
 
+.projects {
+  margin: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .link:hover {
   text-decoration: underline;
 }
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: inherit;
   font-size: 0.85rem;
   font-family: var(--font-mono);
   padding: 15px 25px;
+  gap: 20px;
+  margin: 0px 40px 400px 40px;
 }
 
 .description {
@@ -290,4 +305,9 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.iframe {
+  width: 82vw;
+  height: 690px;
 }
