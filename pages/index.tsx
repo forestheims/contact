@@ -81,8 +81,8 @@ export default function Home() {
             Synethsizer.com
             </a>
             </h2>
-            <p>A personal project I've been working on for fun and to keep coding and trying out some of the newest libraries and frameworks. This is set up as a template repo for anyone interested in diving into Three.js without much dev ops hassle.</p>
-          <iframe src="https://synethsizer.com" frameborder="4" className={styles.iframe}></iframe>
+            <p>A personal project I&apos;ve been working on for fun and to keep coding and trying out some of the newest libraries and frameworks. This is set up as a template repo for anyone interested in diving into Three.js without much dev ops hassle.</p>
+          <iframe src="https://synethsizer.com" className={styles.iframe}></iframe>
         </div>
         <div className={styles.grid}>
           <a
