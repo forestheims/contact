@@ -117,7 +117,7 @@ export default function Home() {
             </div>
           </a>
           <a
-            href="https://forestheims.net/resume/2023-resume-2.3.pdf"
+            href="https://forestheims.com/resume/2023-resume-2.3.pdf"
             className={styles.card}
             target="_blank"
           >
