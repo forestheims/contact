@@ -25,11 +25,24 @@
   margin-right: 80px;
 }
 
+.project {
+  margin: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* width: stretch; */
+}
+
 .projects {
   margin: 120px 0px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* width: stretch; */
+}
+
+.projects img {
+  max-width: 90vw;
 }
 
 .link:hover {
