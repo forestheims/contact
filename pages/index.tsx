@@ -117,16 +117,15 @@ export default function Home() {
             </div>
           </a>
           <a
-            href="https://forestheims.com/resume/2023-resume-2.3.pdf"
+            href="https://forestheims.com/generation"
             className={styles.card}
-            target="_blank"
           >
             <div className={styles.thirteen}>
               <h2 className={inter.className}>
-                Resume <span>-&gt;</span>
+                AI art <span>-&gt;</span>
               </h2>
               <p className={inter.className}>
-                My resume tailored to software developer.
+                Generate generation.
               </p>
             </div>
           </a>
