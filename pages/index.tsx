@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -111,7 +112,7 @@ export default function Home() {
         </div>
         <div className={styles.projects}>
           <h3>
-            <a href="/pictures">Dall-E created Images</a>
+            <Link href="/pictures">Dall-E created Images</Link>
           </h3>
         </div>
       </main>
