@@ -15,6 +15,22 @@
   font-family: var(--font-mono);
 }
 
+.pictures {
+  margin: 20px;
+}
+
+.pictures img {
+  width: 300px;
+}
+
+.pictures p {
+  width: 400px;
+}
+
+.pictures h3 {
+  width: 400px;
+}
+
 .headerSlug {
   padding: 40px 10px 0px 10px;
 }
