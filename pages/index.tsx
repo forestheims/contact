@@ -81,8 +81,9 @@ export default function Home() {
         </div>
       </header>
       <main className={styles.main}>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0dcFWLV_OlI?si=IcnZpe1At_8CpZ8L" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
+        <div className={styles.videoContainer}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0dcFWLV_OlI?si=IcnZpe1At_8CpZ8L" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
+        </div>
         <p className={styles.headerSlug}>Particular interests of mine include bioinformatics, psychology, 3D engineering, audio engineering, audio visualization, game development, Linux, cybersecurity, computational chemistry/biology, genetic algorithms, drug discovery, organic chemistry, psychopharmacology, psychonautics, and open source software and education.</p>
         <p className={styles.headerSlug}>I come from an academic background of chemistry, philosophy, and art. Education will always be a value I hold, and I also love to teach and continuously learn.</p>
         <p className={styles.headerSlug}>Some of my hobbies include hiking, juggling, surfing the web, rollerskating, and printmaking. Essential Oil and Hydrosol distillation is a process I am also fond of practicing and learning about.</p>
