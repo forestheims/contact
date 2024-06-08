@@ -4,6 +4,14 @@
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    background: linear-gradient(
+    #f400ff50,
+    #6f00ef50,
+    #007fff50,
+    #77fb0050,
+    #feff0050,
+    #faab0050,
+    #f400ff50  );
 
   /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 251, 26, 142;
@@ -86,21 +94,6 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {

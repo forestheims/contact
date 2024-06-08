@@ -11,59 +11,36 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Forest Heims | Contact Info</title>
+        <title>Forest Heims</title>
         <meta name="description" content="Forest Heims" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicons/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
         <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/favicons/apple-touch-icon.png"
+        href="/favicon/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicons/favicon-32x32.png"
+        href="/favicon/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicons/favicon-16x16.png"
+        href="/favicon/favicon-16x16.png"
       />
-      <link rel="manifest" href="/favicons/site.webmanifest" />
-      <link rel="shortcut icon" href="/favicons/favicon.ico" />
+      <link rel="manifest" href="/favicon/site.webmanifest" />
+      <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </Head>
       <header className={styles.header}>
       <div className={styles.description}>
           <p>
-          Forest Heims | Contact Info
+          Forest Heims
           </p>
-        </div>
-         <p className={styles.headerSlug}>Particular interests of mine include bioinformatics, psychology, 3D engineering, audio engineering, audio visualization, game development, Linux, cybersecurity, computational chemistry/biology, genetic algorithms, drug discovery, organic chemistry, psychopharmacology, psychonautics, and open source software and education.</p>
-            <p className={styles.headerSlug}>I come from an academic background of chemistry, philosophy, and art. Education will always be a value I hold, and I also love to teach and continuously learn.</p>
-            <p className={styles.headerSlug}>Some of my hobbies include hiking, juggling, surfing the web, rollerskating, and printmaking. Essential Oil and Hydrosol distillation is a process I am also fond of practicing and learning about.</p>
-          
-      </header>
-      <main className={styles.main}>
-        <div className={styles.center}>
-        <div className={styles.logo}>
-          <img src="/foxy.gif"
-            alt="cute animated fox face gif" width={220} />
-        </div>
-        </div>
-        <div className={styles.projects}>
-
-          <h2>
-            <a href='https://synethsizer.com' className={styles.link}>
-            Synethsizer.com
-            </a>
-            </h2>
-            <p>A personal project I&apos;ve been working on for fun and to keep coding and trying out some of the newest libraries and frameworks. This is set up as a template repo for anyone interested in diving into Three.js without much dev ops hassle.</p>
-          <iframe src="https://synethsizer.com" className={styles.iframe}></iframe>
-        </div>
-        <div className={styles.grid}>
+          <div className={styles.grid}>
           <a
             href="https://www.linkedin.com/in/forestheims/"
             className={styles.card}
@@ -74,12 +51,8 @@ export default function Home() {
               <h2 className={inter.className}>
                 LinkedIn <span>-&gt;</span>
               </h2>
-              <p className={inter.className}>
-                Connect with or contact me here.
-              </p>
             </div>
           </a>
-
           <a
             href="https://github.com/forestheims"
             className={styles.card}
@@ -90,9 +63,7 @@ export default function Home() {
               <h2 className={inter.className}>
                 GitHub <span>-&gt;</span>
               </h2>
-              <p className={inter.className}>
-                forestheims public repositories.
-              </p>
+
             </div>
           </a>
           <a
@@ -104,20 +75,20 @@ export default function Home() {
               <h2 className={inter.className}>
                 Email <span>-&gt;</span>
               </h2>
-              <p className={inter.className}>
-                Email is the best way to get ahold of me.
-              </p>
             </div>
           </a>
         </div>
-        <div className={styles.projects}>
-          <h3>
-            <Link href="/pictures">Dall-E created Images</Link>
-          </h3>
         </div>
+      </header>
+      <main className={styles.main}>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0dcFWLV_OlI?si=IcnZpe1At_8CpZ8L" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
+        <p className={styles.headerSlug}>Particular interests of mine include bioinformatics, psychology, 3D engineering, audio engineering, audio visualization, game development, Linux, cybersecurity, computational chemistry/biology, genetic algorithms, drug discovery, organic chemistry, psychopharmacology, psychonautics, and open source software and education.</p>
+        <p className={styles.headerSlug}>I come from an academic background of chemistry, philosophy, and art. Education will always be a value I hold, and I also love to teach and continuously learn.</p>
+        <p className={styles.headerSlug}>Some of my hobbies include hiking, juggling, surfing the web, rollerskating, and printmaking. Essential Oil and Hydrosol distillation is a process I am also fond of practicing and learning about.</p>
       </main>
       <footer className={styles.footer}>
-       </footer>
+      </footer>
     </>
   )
 }
